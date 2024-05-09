@@ -1,0 +1,65 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.foto {
+  margin-bottom: 20px;
+}
+
+.foto img {
+  width: 80%;
+  max-width: 170px; /* Ajusta el tamaño máximo de la foto según sea necesario */ 
+  display: block;
+  border-radius: 30%; /* Esto hará que la foto sea circular */
+}
+
+.informacion h2 {
+  margin-bottom: 10px;
+}
+
+.informacion ul {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.informacion ul li {
+  margin-bottom: 5px;
+}
+
+.informacion p {
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-left: 100px;
+  width: 80%;
+}
+.columnas {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.columna {
+  flex: 1;
+  padding: 20px;
+}   
+
+h2 {
+  color: blue;
+}
+
+.color1{
+  color: aqua;
+}
